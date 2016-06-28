@@ -4,12 +4,14 @@ Rap News Feed
 A Chrome extension that deletes your Facebook news feed
 and replaces it with rap lyrics.
 
+![Screenshot](https://raw.githubusercontent.com/Mayho/rap-news-feed/master/assets/screenshot.png)
+
 Development
 -----------
 
 To get started, clone the repository and then run:
 
-    npm i && webpack 
+    npm i && webpack
 
 
 Project folder structure:
