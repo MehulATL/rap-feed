@@ -50,7 +50,7 @@ class EditingPanel extends React.Component<any,any> {
 					autoFocus={ true }></textarea>
 			</p>
 			<p className="nfe-quote-source">
-				~ <input type="text"
+				– <input type="text"
 					placeholder="Source"
 					value={ source }
 					onChange={ onChangeSource }
@@ -121,13 +121,13 @@ class QuoteDisplay extends React.Component<any,any> {
 						</div>
 					}
 				</div>
-				{ this.state.isEditing ? 
+				{ this.state.isEditing ?
 					<EditingPanel
 						onCancel={ cancelEdit }
 						onSave={ saveQuote } /> :
 					<div>
 						<p className="nfe-quote-text">“{ this.props.text }”</p>
-						<p className="nfe-quote-source">~ { this.props.source }</p>
+						<p className="nfe-quote-source">– { this.props.source }</p>
 					</div>
 				}
 			</div>

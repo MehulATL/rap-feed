@@ -28,7 +28,7 @@ class Settings extends React.Component<any,any> {
 						 	disabled={ ! this.props.quotesVisible }
 							checked={ this.props.builtinQuotesEnabled }
 							onChange={ this.props.toggleBuiltinQuotes } />
-						Enable Built-in Quotes 
+						Enable Built-in Quotes
 					</label>
 					{ this.props.hiddenQuoteCount > 0 &&
 						<span className="nfe-settings-hidden-quote-count">

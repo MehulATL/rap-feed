@@ -1,7 +1,7 @@
 var React = require('react');
 
 var PlusOneButton = require( './gplus-one-button.jsx' ),
-	FacebookLikeButton = require( './facebook-like-button.jsx' ),
+	// FacebookLikeButton = require( './facebook-like-button.jsx' ),
 	Settings = require( './settings' ).default;
 
 import { toggleShowQuotes, hideInfoPanel, resetHiddenQuotes } from '../store/actions';
@@ -12,52 +12,24 @@ var InfoPanel = React.createClass({
 		return (
 			<div className='nfe-info-panel'>
 			<div className='nfe-info-col'>
-				<h1>News Feed Eradicator</h1>
+				<h1>Rap News Feed</h1>
 				<a href="#"
 					title="Close information panel"
 					className="nfe-close-button"
 					onClick={ this.props.hideInfoPanel }>X</a>
 
 				<hr/>
-				<h2>Settings</h2>
-
-				<Settings />
-
-				<hr/>
-
-				<h2>Share</h2>
-
-				<br/>
-
-				<div>
-					<FacebookLikeButton />
-				</div>
-
-				<div>
-					<PlusOneButton
-						size="standard"
-						annotation="bubble"
-						href="https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg" />
-				</div>
-
-				<hr/>
 
 				<h2>Contribute</h2>
 
 				<p>
-					If you have any ideas for quotes, please submit them to the
-					<a href="//www.facebook.com/NewsFeedEradicator"> News Feed Eradicator Facebook page</a>
+					If you have any ideas for quotes, please tweet them to <a href="https://twitter.com/ItsMayho"> @ItsMayho</a>
 				</p>
 				<p>
-					News Feed Eradicator is open source. <a href="https://github.com/jordwest/news-feed-eradicator/">Fork on Github</a>
+					Rap News Feed is open source. <a href="https://github.com/Mayho/rap-news-feed">Fork on Github</a>
 				</p>
 				<hr/>
-				<h2>Remove</h2>
-				<ul>
-					<li>
-						<a href="http://news-feed-eradicator.west.io/remove.html">Removal instructions /	Instrucciones de eliminación</a>
-					</li>
-				</ul>
+
 			</div>
 			</div>
 		);
