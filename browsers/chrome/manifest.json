@@ -1,7 +1,7 @@
 {
-	"name": "News Feed Eradicator for Facebook",
-	"version": "1.0.1",
-	"description": "Find yourself spending too much time on Facebook? Eradicate distractions by replacing your entire news feed with an inspiring quote",
+	"name": "Rap News Feed for Facebook",
+	"version": "1.0.0",
+	"description": "Find yourself spending too much time on Facebook? Eradicate distractions by replacing your entire news feed with rap lyrics.",
 	"manifest_version": 2,
 	"permissions": [
 		"storage",
@@ -11,9 +11,8 @@
 		"https://web.facebook.com/*"
 	],
 	"icons": {
-		"16": "icon16.jpg",
-		"48": "icon48.jpg",
-		"128": "icon128.jpg"
+		"48": "icon48.png",
+		"128": "icon128.png"
 	},
 	"content_scripts": [
 		{
