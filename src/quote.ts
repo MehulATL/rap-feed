@@ -9,222 +9,107 @@ export default Quote;
 export const BuiltinQuotes : Array<Quote> = [
 	{
 		id: 1,
-		text: "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures.",
-		source: "Lao Tzu"
+		text: "I'm not a businessman, I'm a business, man",
+		source: "Jay Z"
 	},
 	{
 		id: 2,
-		text: "Do today what others won't and achieve tomorrow what others can't.",
-		source: "Jerry Rice"
+		text: "I'm doing pretty good as far as geniuses go.",
+		source: "Kanye West"
 	},
 	{
 		id: 3,
-		text: "In character, in manner, in style, in all things, the supreme excellence is simplicity.",
-		source: "Henry Wadsworth Longfellow"
+		text: "Give me respect, dammit, or get damaged.",
+		source: "Kendrick Lamar"
 	},
 	{
 		id: 4,
-		text: "If we don't discipline ourselves, the world will do it for us.",
-		source: "William Feather"
+		text: "Ya'll n****s dreamed it, I've seen it.",
+		source: "Cam'ron"
 	},
 	{
 		id: 5,
-		text: "Rule your mind or it will rule you.",
-		source: "Horace"
+		text: "I believe there's a god above me, I'm just the god of everything else.",
+		source: "Pusha T"
 	},
 	{
 		id: 6,
-		text: "All that we are is the result of what we have thought.",
-		source: "Buddha"
+		text: "Fuck the frail shit.",
+		source: "Jadakiss"
 	},
 	{
 		id: 7,
-		text: "Doing just a little bit during the time we have available puts you that much further ahead than if you took no action at all.",
-		source: "Pulsifer, Take Action; Don't Procrastinate"
+		text: "Living off borrowed time, the clock tick faster.",
+		source: "MF DOOM"
 	},
 	{
 		id: 8,
-		text: "Never leave that till tomorrow which you can do today.",
-		source: "Benjamin Franklin"
+		text: "I be that pretty motherfucker.",
+		source: "A$AP Rocky"
 	},
 	{
 		id: 9,
-		text: "Procrastination is like a credit card: it's a lot of fun until you get the bill.",
-		source: "Christopher Parker"
+		text: "Supermodels think I'm handsome.",
+		source: "Quavo"
 	},
 	{
 		id: 10,
-		text: "Someday is not a day of the week.",
-		source: "Author Unknown"
+		text: "Let’s make it so free and the bars so hard that there ain’t one gosh-darned part you can’t tweet",
+		source: "Chance the Rapper"
 	},
 	{
 		id: 11,
-		text: "Tomorrow is often the busiest day of the week.",
-		source: "Spanish Proverb"
+		text: "Sophisticated ignorance, I write my curses in cursive.",
+		source: "Kanye West"
 	},
 	{
 		id: 12,
-		text: "I can accept failure, everyone fails at something. But I can't accept not trying.",
-		source: "Michael Jordan"
+		text: "I rather die enormous than live dormant",
+		source: "Jay Z"
 	},
 	{
 		id: 13,
-		text: "There’s a myth that time is money. In fact, time is more precious than money. It’s a nonrenewable resource. Once you’ve spent it, and if you’ve spent it badly, it’s gone forever.",
-		source: "Neil A. Fiore"
+		text: "I made Sunday Candy, I'm never going to hell. I met Kanye West, I'm never going to fail.",
+		source: "Chance the Rapper"
 	},
 	{
 		id: 14,
-		text: "Nothing can stop the man with the right mental attitude from achieving his goal; nothing on earth can help the man with the wrong mental attitude.",
-		source: "Thomas Jefferson"
+		text: "I got broads in Atlanta.",
+		source: "Desiigner"
 	},
 	{
 		id: 15,
-		text: "There is only one success--to be able to spend your life in your own way.",
-		source: "Christopher Morley"
+		text: "I call all the shots, rip all the spots, rock all the rocks, cop all the drops.",
+		source: "Notorious B.I.G."
 	},
 	{
 		id: 16,
-		text: "Success is the good fortune that comes from aspiration, desperation, perspiration and inspiration.",
-		source: "Evan Esar"
+		text: "For me to move on and succeed – jealousy, envy and greed – too much of that shit I don't need.",
+		source: "Future"
 	},
 	{
 		id: 17,
-		text: "We are still masters of our fate. We are still captains of our souls.",
-		source: "Winston Churchill"
+		text: "Tell them n****s it's tax season, Atlanta Georgia, that's black Sweden.",
+		source: "Childish Gambino"
 	},
 	{
 		id: 18,
-		text: "Our truest life is when we are in dreams awake.",
-		source: "Henry David Thoreau"
+		text: "I took a nap in the pulpit, I never like how a suit fit, I got a pocket full of money, It got me walkin’ all slue-foot.",
+		source: "2 Chainz"
 	},
 	{
 		id: 19,
-		text: "The best way to make your dreams come true is to wake up.",
-		source: "Paul Valery"
+		text: "She say she don't want a chump, baby want a champ.",
+		source: "Gucci Mane"
 	},
 	{
 		id: 20,
-		text: "Life without endeavor is like entering a jewel mine and coming out with empty hands.",
-		source: "Japanese Proverb"
+		text: "I think I'm Big Meech, Larry Hoover. Whipping work, hallelujah. One nation, under God. Real n****s getting money from the fucking start.",
+		source: "Rick Ross"
 	},
 	{
 		id: 21,
-		text: "Happiness does not consist in pastimes and amusements but in virtuous activities.",
-		source: "Aristotle"
-	},
-	{
-		id: 22,
-		text: "By constant self-discipline and self-control, you can develop greatness of character.",
-		source: "Grenville Kleiser"
-	},
-	{
-		id: 23,
-		text: "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack in will.",
-		source: "Vince Lombardi Jr."
-	},
-	{
-		id: 24,
-		text: "At the end of the day, let there be no excuses, no explanations, no regrets.",
-		source: "Steve Maraboli"
-	},
-	{
-		id: 25,
-		text: "Inaction will cause a man to sink into the slough of despond and vanish without a trace.",
-		source: "Farley Mowat"
-	},
-	{
-		id: 26,
-		text: "True freedom is impossible without a mind made free by discipline.",
-		source: "Mortimer J. Adler"
-	},
-	{
-		id: 27,
-		text: "The most powerful control we can ever attain, is to be in control of ourselves.",
-		source: "Chris Page"
-	},
-	{
-		id: 28,
-		text: "Idleness is only the refuge of weak minds, and the holiday of fools.",
-		source: "Philip Dormer Stanhope"
-	},
-	{
-		id: 29,
-		text: "This is your life and it's ending one minute at a time.",
-		source: "Tyler Durden, Fight Club"
-	},
-	{
-		id: 30,
-		text: "You create opportunities by performing, not complaining.",
-		source: "Muriel Siebert"
-	},
-	{
-		id: 31,
-		text: "Great achievement is usually born of great sacrifice, and is never the result of selfishness.",
-		source: "Napoleon Hill"
-	},
-	{
-		id: 32,
-		text: "Whether you think you can, or you think you can't, you're right.",
-		source: "Henry Ford"
-	},
-	{
-		id: 33,
-		text: "Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree.",
-		source: "Martin Luther"
-	},
-	{
-		id: 34,
-		text: "Great acts are made up of small deeds.",
-		source: "Lao Tzu"
-	},
-	{
-		id: 35,
-		text: "The flame that burns Twice as bright burns half as long.",
-		source: "Lao Tzu"
-	},
-	{
-		id: 36,
-		text: "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.",
-		source: "Antoine de Saint-Exupery"
-	},
-	{
-		id: 37,
-		text: "If you can't do great things, do small things in a great way.",
-		source: "Napoleon Hill"
-	},
-	{
-		id: 38,
-		text: "When I let go of what I am, I become what I might be.",
-		source: "Lao Tzu"
-	},
-	{
-		id: 39,
-		text: "Do not go where the path may lead, go instead where there is no path and leave a trail.",
-		source: "Ralph Waldo Emerson"
-	},
-	{
-		id: 40,
-		text: "Well done is better than well said.",
-		source: "Benjamin Franklin"
-	},
-	{
-		id: 41,
-		text: "Whatever you think the world is withholding from you, you are withholding from the world.",
-		source: "Ekhart Tolle"
-	},
-	{
-		id: 42,
-		text: "Muddy water is best cleared by leaving it alone.",
-		source: "Alan Watts"
-	},
-	{
-		id: 43,
-		text: "Do, or do not. There is no try.",
-		source: "Yoda"
-	},
-	{
-		id: 44,
-		text: "The superior man is modest in his speech, but exceeds in his actions.",
-		source: "Confucius"
+		text: "Rain pourin', all my cars is foreign. All my broads is foreign, money tall like Jordan",
+		source: "2 Chainz"
 	}
 ];
